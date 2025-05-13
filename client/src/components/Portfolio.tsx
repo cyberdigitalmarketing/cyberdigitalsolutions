@@ -97,7 +97,7 @@ export default function Portfolio() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Portfolio</h2>
-          <p className="text-[hsl(var(--neutral-dark))]">
+          <p className="text-[hsl(var(--neutral-dark))] font-medium">
             Explore our recent projects and see how we've helped businesses
             achieve their digital goals.
           </p>
@@ -133,7 +133,7 @@ export default function Portfolio() {
                 />
                 <CardContent className="p-4">
                   <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                  <p className="text-[hsl(var(--neutral-dark))] text-sm mb-3">
+                  <p className="text-[hsl(var(--neutral-dark))] text-sm mb-3 font-medium">
                     {item.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
