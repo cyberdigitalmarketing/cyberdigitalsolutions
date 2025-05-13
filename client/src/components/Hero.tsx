@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="pt-32 pb-24 md:pt-40 md:pb-32 bg-gradient-to-br from-[hsl(var(--primary-dark))] via-primary to-[hsl(var(--primary-light))] text-white relative overflow-hidden"
+      className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-br from-[hsl(var(--primary-dark))] via-primary to-[hsl(var(--primary-light))] text-white relative overflow-hidden"
     >
       <div className="absolute top-4 right-4 md:top-8 md:right-8 lg:top-12 lg:right-12 z-10 hidden md:block">
         <svg 
@@ -22,7 +22,7 @@ export default function Hero() {
         </svg>
       </div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 md:pr-8 mb-10 md:mb-0">
+        <div className="md:w-1/2 md:pr-8 mb-4 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4 animate-fade-in">
             Transforming Digital{" "}
             <span className="text-[hsl(var(--accent-light))]">Experiences</span>
