@@ -15,10 +15,17 @@ export default function Hero() {
           xmlns="http://www.w3.org/2000/svg" 
           className="w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 animate-pulse-scale opacity-25"
         >
-          <rect width="40" height="40" rx="8" fill="#ffffff"/>
-          <path d="M7 20C7 13.3726 12.3726 8 19 8H21C27.6274 8 33 13.3726 33 20V20C33 26.6274 27.6274 32 21 32H19C12.3726 32 7 26.6274 7 20V20Z" fill="#1E7AF8"/>
-          <path d="M12 20C12 16.134 15.134 13 19 13H21C24.866 13 28 16.134 28 20V20C28 23.866 24.866 27 21 27H19C15.134 27 12 23.866 12 20V20Z" fill="#0597F2"/>
-          <path d="M20 16V24M16 20H24" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+          <rect width="40" height="40" rx="4" fill="#ffffff"/>
+          <path 
+            fillRule="evenodd" 
+            clipRule="evenodd" 
+            d="M10 10C10 8.89543 10.8954 8 12 8H28C29.1046 8 30 8.89543 30 10V30C30 31.1046 29.1046 32 28 32H12C10.8954 32 10 31.1046 10 30V10ZM12 10H28V30H12V10Z" 
+            fill="#1E7AF8"
+          />
+          <path d="M17 15H15V25H17V15Z" fill="#1E7AF8"/>
+          <path d="M21 15H19V25H21V15Z" fill="#1E7AF8"/>
+          <path d="M25 15H23V25H25V15Z" fill="#1E7AF8"/>
+          <path d="M17 20H25V22H17V20Z" fill="#0597F2"/>
         </svg>
       </div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
