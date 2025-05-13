@@ -91,7 +91,7 @@ export default function Services() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Services</h2>
-          <p className="text-[hsl(var(--neutral-dark))]">
+          <p className="text-[hsl(var(--neutral-dark))] font-medium">
             Comprehensive digital solutions tailored to help your business
             succeed online and reach your target audience effectively.
           </p>
@@ -112,7 +112,7 @@ export default function Services() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-                <p className="text-[hsl(var(--neutral-dark))] mb-4">
+                <p className="text-[hsl(var(--neutral-dark))] mb-4 font-medium">
                   {service.description}
                 </p>
                 <ul className="mb-6 space-y-2">

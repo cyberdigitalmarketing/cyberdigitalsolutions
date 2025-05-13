@@ -104,7 +104,7 @@ export default function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-bold mb-4">What Our Clients Say</h2>
-          <p className="text-[hsl(var(--neutral-lightest))]">
+          <p className="text-white font-medium">
             Hear from businesses we've helped transform their digital presence.
           </p>
         </div>
@@ -150,7 +150,7 @@ export default function Testimonials() {
                     </div>
                     <div>
                       <p className="font-bold">{testimonial.author}</p>
-                      <p className="text-sm text-[hsl(var(--neutral-dark))]">
+                      <p className="text-sm text-[hsl(var(--neutral-dark))] font-medium">
                         {testimonial.position}
                       </p>
                     </div>

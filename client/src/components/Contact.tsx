@@ -78,7 +78,7 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-          <p className="text-[hsl(var(--neutral-dark))]">
+          <p className="text-[hsl(var(--neutral-dark))] font-medium">
             Have a project in mind? Get in touch with us to discuss how we can
             help your business grow online.
           </p>
@@ -97,7 +97,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-medium">Email Us</h4>
-                      <p className="text-[hsl(var(--neutral-dark))]">
+                      <p className="text-[hsl(var(--neutral-dark))] font-medium">
                         cyberdigitalsolutions@mail.com
                       </p>
                     </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-medium">Call Us</h4>
-                      <p className="text-[hsl(var(--neutral-dark))]">
+                      <p className="text-[hsl(var(--neutral-dark))] font-medium">
                         (519) 774-3499
                       </p>
                     </div>
