@@ -37,12 +37,13 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-1">
-            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-1">
-              <circle cx="18" cy="18" r="18" fill="#1E7AF8" />
-              <path d="M9 10.5C9 9.67157 9.67157 9 10.5 9H25.5C26.3284 9 27 9.67157 27 10.5V25.5C27 26.3284 26.3284 27 25.5 27H10.5C9.67157 27 9 26.3284 9 25.5V10.5Z" fill="#FFFFFF" />
-              <path d="M13.5 13.5C13.5 13.0858 13.8358 12.75 14.25 12.75H21.75C22.1642 12.75 22.5 13.0858 22.5 13.5V22.5C22.5 22.9142 22.1642 23.25 21.75 23.25H14.25C13.8358 23.25 13.5 22.9142 13.5 22.5V13.5Z" fill="#EF476F" />
-              <path d="M18 18C19.6569 18 21 16.6569 21 15C21 13.3431 19.6569 12 18 12C16.3431 12 15 13.3431 15 15C15 16.6569 16.3431 18 18 18Z" fill="#EF476F" />
-              <path d="M18 24C21.3137 24 24 21.3137 24 18C24 14.6863 21.3137 12 18 12C14.6863 12 12 14.6863 12 18C12 21.3137 14.6863 24 18 24Z" stroke="#1E7AF8" strokeWidth="1.5" />
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-1">
+              <path d="M21 0C9.402 0 0 9.402 0 21C0 32.598 9.402 42 21 42C32.598 42 42 32.598 42 21C42 9.402 32.598 0 21 0Z" fill="#1E7AF8"/>
+              <path d="M11 11L31 11L31 31L11 31L11 11Z" fill="white"/>
+              <path d="M15 16L27 16L27 26L15 26L15 16Z" fill="#0597F2"/>
+              <path d="M9 9L17 3L33 3L33 17L39 25L33 33L17 39L3 33L3 17L9 9Z" stroke="#1E7AF8" strokeWidth="2" fill="none"/>
+              <path d="M15 15L21 9L27 15L33 21L27 27L21 33L15 27L9 21L15 15Z" stroke="#1E7AF8" strokeWidth="1.5" fill="none"/>
+              <circle cx="21" cy="21" r="3" fill="white"/>
             </svg>
             <div className="text-primary font-bold text-xl md:text-2xl">
               CyberDigital<span className="text-accent">Solutions</span>

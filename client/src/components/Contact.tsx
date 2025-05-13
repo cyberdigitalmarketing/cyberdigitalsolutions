@@ -50,11 +50,20 @@ export default function Contact() {
 
   const onSubmit = async (data: ContactFormValues) => {
     try {
-      // Here we would normally submit to Formspree
-      // For example: await fetch(`https://formspree.io/f/your-form-id`, {...})
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
       
-      // Simulating a successful submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const result = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to send message');
+      }
+      
       setIsSubmitted(true);
     } catch (error) {
       console.error("Error submitting form:", error);
