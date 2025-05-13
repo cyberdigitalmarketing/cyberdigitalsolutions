@@ -13,11 +13,11 @@
   --card-foreground: 20 14.3% 4.1%;
   --border: 20 5.9% 90%;
   --input: 20 5.9% 90%;
-  --primary: 264 68% 48%; /* #6530CC - Vibrant Purple */
+  --primary: 214 89% 52%; /* #1E7AF8 - Vibrant Blue */
   --primary-foreground: 210 100% 98%;
   --secondary: 60 4.8% 95.9%;
   --secondary-foreground: 24 9.8% 10%;
-  --accent: 175 84% 44%; /* #15CDB3 - Turquoise */
+  --accent: 355 78% 56%; /* #EF476F - Coral Red */
   --accent-foreground: 24 9.8% 10%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 60 9.1% 97.8%;
@@ -25,10 +25,10 @@
   --radius: 0.5rem;
   
   /* Additional theme colors based on design reference */
-  --primary-light: 258 67% 60%; /* #8562E0 - Light Purple */
-  --primary-dark: 270 70% 34%; /* #4A1098 - Dark Purple */
-  --accent-light: 169 77% 54%; /* #29EDD1 - Light Turquoise */
-  --accent-dark: 181 84% 32%; /* #10AE9A - Dark Turquoise */
+  --primary-light: 210 100% 66%; /* #5CA4FF - Light Blue */
+  --primary-dark: 215 90% 36%; /* #0D57C2 - Dark Blue */
+  --accent-light: 353 78% 66%; /* #F26D8D - Light Coral */
+  --accent-dark: 355 80% 46%; /* #DC2A55 - Dark Coral */
   --neutral-lightest: 210 17% 98%; /* #f8f9fa */
   --neutral-light: 210 10% 92%; /* #e9ecef */
   --neutral: 210 11% 83%; /* #ced4da */
@@ -47,11 +47,11 @@
   --card-foreground: 0 0% 98%;
   --border: 240 3.7% 15.9%;
   --input: 240 3.7% 15.9%;
-  --primary: 264 68% 48%;
+  --primary: 214 89% 52%;
   --primary-foreground: 0 0% 98%;
   --secondary: 240 3.7% 15.9%;
   --secondary-foreground: 0 0% 98%;
-  --accent: 175 84% 44%;
+  --accent: 355 78% 56%;
   --accent-foreground: 0 0% 98%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;

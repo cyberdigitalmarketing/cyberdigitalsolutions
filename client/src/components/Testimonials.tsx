@@ -125,7 +125,29 @@ export default function Testimonials() {
                   </div>
                   <p className="italic mb-6">{testimonial.quote}</p>
                   <div className="flex items-center">
-                    <div className="w-12 h-12 bg-[hsl(var(--neutral-light))] rounded-full mr-4"></div>
+                    <div className="w-12 h-12 rounded-full mr-4 overflow-hidden">
+                      {testimonial.author === "Sarah Johnson" && (
+                        <img 
+                          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80" 
+                          alt="Sarah Johnson" 
+                          className="w-full h-full object-cover"
+                        />
+                      )}
+                      {testimonial.author === "Michael Chen" && (
+                        <img 
+                          src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80" 
+                          alt="Michael Chen" 
+                          className="w-full h-full object-cover"
+                        />
+                      )}
+                      {testimonial.author === "Jennifer Martinez" && (
+                        <img 
+                          src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80" 
+                          alt="Jennifer Martinez" 
+                          className="w-full h-full object-cover"
+                        />
+                      )}
+                    </div>
                     <div>
                       <p className="font-bold">{testimonial.author}</p>
                       <p className="text-sm text-[hsl(var(--neutral-dark))]">
