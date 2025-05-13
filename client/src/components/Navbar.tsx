@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-1">
             <img 
-              src="/logo.png" 
+              src={logo} 
               alt="Cyber Digital Solutions Logo" 
               className={`h-10 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "scale-90" : "scale-100"}`}
             />

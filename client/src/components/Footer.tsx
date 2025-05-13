@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { MapPin, Mail, Phone } from "lucide-react";
+import logo from "../assets/logo1.png";
 
 const currentYear = new Date().getFullYear();
 
@@ -12,9 +13,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/logo.png" 
+                src={logo} 
                 alt="Cyber Digital Solutions Logo" 
-                className="h-8 mr-2"
+                className="h-12 mr-2"
               />
             </div>
             <p className="text-white opacity-80 mb-6 font-medium">
