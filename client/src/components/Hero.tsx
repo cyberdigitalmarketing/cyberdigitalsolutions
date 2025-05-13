@@ -48,7 +48,7 @@ export default function Hero() {
             </Button>
           </div>
           
-          <div className="mt-8 flex items-center bg-white/20 backdrop-blur-sm p-4 rounded-lg max-w-md animate-float">
+          <div className="mt-4 flex items-center bg-white/20 backdrop-blur-sm p-4 rounded-lg max-w-md animate-float">
             <div className="flex -space-x-3 mr-4">
               <img 
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&h=256&q=80" 
