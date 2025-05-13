@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/crisp-logo.svg";
+import logo from "../assets/modern-logo.svg";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -54,7 +54,7 @@ export default function Navbar() {
             <img 
               src={logo} 
               alt="Cyber Digital Solutions Logo" 
-              className={`h-12 sm:h-14 md:h-16 transition-all duration-300 ${scrolled ? "scale-95" : "scale-100"}`}
+              className={`h-8 sm:h-10 md:h-12 transition-all duration-300 ${scrolled ? "scale-95" : "scale-100"}`}
             />
           </a>
 
