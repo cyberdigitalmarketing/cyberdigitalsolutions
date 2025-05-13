@@ -54,10 +54,9 @@ export default function Navbar() {
               <path d="M12 20C12 16.134 15.134 13 19 13H21C24.866 13 28 16.134 28 20V20C28 23.866 24.866 27 21 27H19C15.134 27 12 23.866 12 20V20Z" fill="#0597F2"/>
               <path d="M20 16V24M16 20H24" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
-            <div className="text-primary font-bold text-base sm:text-lg md:text-xl lg:text-2xl transition-all duration-300">
-              <span className="hidden md:inline">Cyber Digital </span>
-              <span className="md:hidden">CDS</span>
-              <span className="text-accent"><span className="hidden md:inline">Solutions</span></span>
+            <div className="text-primary font-bold text-xs sm:text-sm md:text-xl lg:text-2xl transition-all duration-300">
+              <span>Cyber Digital </span>
+              <span className="text-accent">Solutions</span>
             </div>
           </a>
 
