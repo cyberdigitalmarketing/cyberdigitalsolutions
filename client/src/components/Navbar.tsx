@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo1.png";
+import logo from "../assets/logo-high-quality.svg";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,6 +10,14 @@ export default function Navbar() {
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
+  };
+  
+  // Function to adjust navbar background opacity based on scroll position
+  const getNavbarStyle = () => {
+    if (scrolled) {
+      return { backgroundColor: 'rgba(255, 255, 255, 0.98)', backdropFilter: 'blur(8px)' };
+    }
+    return { backgroundColor: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(5px)' };
   };
 
   const closeMobileMenu = () => {
@@ -35,7 +43,8 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 bg-white z-50 transition-all duration-300 ${
+      style={getNavbarStyle()}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? "py-2 shadow-lg" : "py-3 shadow-md"
       }`}
     >
@@ -45,7 +54,7 @@ export default function Navbar() {
             <img 
               src={logo} 
               alt="Cyber Digital Solutions Logo" 
-              className={`h-10 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "scale-90" : "scale-100"}`}
+              className={`h-12 sm:h-14 md:h-16 transition-all duration-300 ${scrolled ? "scale-95" : "scale-100"}`}
             />
           </a>
 
