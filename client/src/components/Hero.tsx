@@ -27,7 +27,7 @@ export default function Hero() {
             Transforming Digital{" "}
             <span className="text-[hsl(var(--accent-light))]">Experiences</span>
           </h1>
-          <p className="text-lg md:text-xl mb-8 text-[hsl(var(--neutral-lightest))] animate-slide-up">
+          <p className="text-lg md:text-xl mb-8 text-white animate-slide-up font-medium">
             Custom web solutions that drive results for small and mid-sized
             businesses. Stand out in the digital landscape with our expert
             services.

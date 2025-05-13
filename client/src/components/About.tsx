@@ -24,13 +24,13 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-4">
               About Cyber Digital Solutions
             </h2>
-            <p className="text-[hsl(var(--neutral-dark))] mb-4">
+            <p className="text-[hsl(var(--neutral-dark))] mb-4 font-medium">
               Founded in 2015, Cyber Digital Solutions has been partnering with
               businesses to create impactful digital experiences that drive real
               results. Our team of experts brings together creativity and
               technical expertise to deliver solutions that stand out.
             </p>
-            <p className="text-[hsl(var(--neutral-dark))] mb-6">
+            <p className="text-[hsl(var(--neutral-dark))] mb-6 font-medium">
               We believe in building long-term relationships with our clients,
               understanding their unique challenges, and developing custom
               strategies that align with their business goals.

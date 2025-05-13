@@ -28,7 +28,7 @@ export default function Footer() {
                 Cyber Digital Solutions
               </h3>
             </div>
-            <p className="text-[hsl(var(--neutral-light))] mb-6">
+            <p className="text-white opacity-80 mb-6 font-medium">
               Creating digital experiences that drive results for businesses of
               all sizes.
             </p>
@@ -177,13 +177,13 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-[hsl(var(--neutral-light))]">
+          <p className="text-white opacity-80 font-medium">
             © {currentYear} Cyber Digital Solutions. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a
               href="#"
-              className="text-[hsl(var(--neutral-light))] hover:text-white mr-4 transition-colors duration-300"
+              className="text-white opacity-70 hover:text-white hover:opacity-100 mr-4 transition-colors duration-300"
             >
               Privacy Policy
             </a>
