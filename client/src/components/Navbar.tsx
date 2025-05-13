@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "../assets/logo1.png";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -41,24 +42,11 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-1">
-            <svg 
-              width="40" 
-              height="40" 
-              viewBox="0 0 40 40" 
-              fill="none" 
-              xmlns="http://www.w3.org/2000/svg" 
-              className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-1 md:mr-2 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
-            >
-              <rect width="40" height="40" rx="8" fill="#1E7AF8"/>
-              <path d="M7 20C7 13.3726 12.3726 8 19 8H21C27.6274 8 33 13.3726 33 20V20C33 26.6274 27.6274 32 21 32H19C12.3726 32 7 26.6274 7 20V20Z" fill="white"/>
-              <path d="M12 20C12 16.134 15.134 13 19 13H21C24.866 13 28 16.134 28 20V20C28 23.866 24.866 27 21 27H19C15.134 27 12 23.866 12 20V20Z" fill="#0597F2"/>
-              <path d="M20 16V24M16 20H24" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-            <div className="text-primary font-bold text-base sm:text-lg md:text-xl lg:text-2xl transition-all duration-300">
-              <span className="hidden md:inline">Cyber Digital </span>
-              <span className="md:hidden">CD</span>
-              <span className="text-accent"><span className="hidden md:inline">Solutions</span><span className="md:hidden">S</span></span>
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Cyber Digital Solutions Logo" 
+              className={`h-10 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "scale-90" : "scale-100"}`}
+            />
           </a>
 
           {/* Mobile menu button */}
