@@ -22,10 +22,10 @@ export default function About() {
           </div>
           <div className="md:w-1/2">
             <h2 className="text-3xl font-bold mb-4">
-              About CyberDigitalSolutions
+              About Cyber Digital Solutions
             </h2>
             <p className="text-[hsl(var(--neutral-dark))] mb-4">
-              Founded in 2015, CyberDigitalSolutions has been partnering with
+              Founded in 2015, Cyber Digital Solutions has been partnering with
               businesses to create impactful digital experiences that drive real
               results. Our team of experts brings together creativity and
               technical expertise to deliver solutions that stand out.

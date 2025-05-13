@@ -37,16 +37,14 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-1">
-            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-1">
-              <path d="M21 0C9.402 0 0 9.402 0 21C0 32.598 9.402 42 21 42C32.598 42 42 32.598 42 21C42 9.402 32.598 0 21 0Z" fill="#1E7AF8"/>
-              <path d="M11 11L31 11L31 31L11 31L11 11Z" fill="white"/>
-              <path d="M15 16L27 16L27 26L15 26L15 16Z" fill="#0597F2"/>
-              <path d="M9 9L17 3L33 3L33 17L39 25L33 33L17 39L3 33L3 17L9 9Z" stroke="#1E7AF8" strokeWidth="2" fill="none"/>
-              <path d="M15 15L21 9L27 15L33 21L27 27L21 33L15 27L9 21L15 15Z" stroke="#1E7AF8" strokeWidth="1.5" fill="none"/>
-              <circle cx="21" cy="21" r="3" fill="white"/>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
+              <rect width="40" height="40" rx="8" fill="#1E7AF8"/>
+              <path d="M7 20C7 13.3726 12.3726 8 19 8H21C27.6274 8 33 13.3726 33 20V20C33 26.6274 27.6274 32 21 32H19C12.3726 32 7 26.6274 7 20V20Z" fill="white"/>
+              <path d="M12 20C12 16.134 15.134 13 19 13H21C24.866 13 28 16.134 28 20V20C28 23.866 24.866 27 21 27H19C15.134 27 12 23.866 12 20V20Z" fill="#0597F2"/>
+              <path d="M20 16V24M16 20H24" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
             <div className="text-primary font-bold text-xl md:text-2xl">
-              CyberDigital<span className="text-accent">Solutions</span>
+              Cyber Digital <span className="text-accent">Solutions</span>
             </div>
           </a>
 

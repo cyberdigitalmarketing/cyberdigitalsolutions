@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">
-              CyberDigitalSolutions
+              Cyber Digital Solutions
             </h3>
             <p className="text-[hsl(var(--neutral-light))] mb-6">
               Creating digital experiences that drive results for businesses of
@@ -163,7 +163,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[hsl(var(--neutral-light))]">
-            © {currentYear} CyberDigitalSolutions. All rights reserved.
+            © {currentYear} Cyber Digital Solutions. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <a
