@@ -56,8 +56,8 @@ export default function Navbar() {
             </svg>
             <div className="text-primary font-bold text-base sm:text-lg md:text-xl lg:text-2xl transition-all duration-300">
               <span className="hidden md:inline">Cyber Digital </span>
-              <span className="md:hidden">CD</span>
-              <span className="text-accent"><span className="hidden md:inline">Solutions</span><span className="md:hidden">S</span></span>
+              <span className="md:hidden">CDS</span>
+              <span className="text-accent"><span className="hidden md:inline">Solutions</span></span>
             </div>
           </a>
 
