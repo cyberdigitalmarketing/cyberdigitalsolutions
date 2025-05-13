@@ -28,7 +28,6 @@ const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
   phone: z.string().optional(),
-  service: z.string().optional(),
   message: z.string().min(10, {
     message: "Message must be at least 10 characters.",
   }),
@@ -45,7 +44,6 @@ export default function Contact() {
       name: "",
       email: "",
       phone: "",
-      service: "",
       message: "",
     },
   });
@@ -78,6 +76,74 @@ export default function Contact() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-12">
+          <div className="md:w-1/2">
+            <Card className="bg-white p-6 rounded-lg shadow-md h-full">
+              <CardContent className="p-0">
+                <h3 className="text-xl font-semibold mb-6">Get in Touch</h3>
+
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <div className="text-primary text-xl mr-4">
+                      <Mail className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Email Us</h4>
+                      <p className="text-[hsl(var(--neutral-dark))]">
+                        cyberdigitalsolutions@mail.com
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="text-primary text-xl mr-4">
+                      <Phone className="h-6 w-6" />
+                    </div>
+                    <div>
+                      <h4 className="font-medium">Call Us</h4>
+                      <p className="text-[hsl(var(--neutral-dark))]">
+                        519 774 3499
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="pt-6">
+                    <h4 className="font-medium mb-4">Follow Us</h4>
+                    <div className="flex space-x-4">
+                      <a
+                        href="#"
+                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
+                        aria-label="Facebook"
+                      >
+                        <FaFacebook />
+                      </a>
+                      <a
+                        href="#"
+                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
+                        aria-label="Twitter"
+                      >
+                        <FaTwitter />
+                      </a>
+                      <a
+                        href="#"
+                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
+                        aria-label="LinkedIn"
+                      >
+                        <FaLinkedin />
+                      </a>
+                      <a
+                        href="#"
+                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
+                        aria-label="Instagram"
+                      >
+                        <FaInstagram />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+          
           <div className="md:w-1/2">
             <Card className="bg-white p-6 rounded-lg shadow-md">
               {isSubmitted ? (
@@ -163,47 +229,6 @@ export default function Contact() {
 
                     <FormField
                       control={form.control}
-                      name="service"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Service Interested In</FormLabel>
-                          <Select
-                            onValueChange={field.onChange}
-                            defaultValue={field.value}
-                          >
-                            <FormControl>
-                              <SelectTrigger className="w-full px-4 py-2 border border-neutral rounded-md focus:outline-none focus:ring-2 focus:ring-primary">
-                                <SelectValue placeholder="Select a Service" />
-                              </SelectTrigger>
-                            </FormControl>
-                            <SelectContent>
-                              <SelectItem value="website-design">
-                                Website Design
-                              </SelectItem>
-                              <SelectItem value="seo">
-                                SEO Optimization
-                              </SelectItem>
-                              <SelectItem value="e-commerce">
-                                E-Commerce Setup
-                              </SelectItem>
-                              <SelectItem value="custom-development">
-                                Custom Development
-                              </SelectItem>
-                              <SelectItem value="social-media">
-                                Social Media Management
-                              </SelectItem>
-                              <SelectItem value="content-marketing">
-                                Content Marketing
-                              </SelectItem>
-                            </SelectContent>
-                          </Select>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-
-                    <FormField
-                      control={form.control}
                       name="message"
                       render={({ field }) => (
                         <FormItem>
@@ -230,92 +255,6 @@ export default function Contact() {
                   </form>
                 </Form>
               )}
-            </Card>
-          </div>
-
-          <div className="md:w-1/2">
-            <Card className="bg-white p-6 rounded-lg shadow-md h-full">
-              <CardContent className="p-0">
-                <h3 className="text-xl font-semibold mb-6">Get in Touch</h3>
-
-                <div className="space-y-6">
-                  <div className="flex items-start">
-                    <div className="text-primary text-xl mr-4">
-                      <MapPin className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Our Location</h4>
-                      <p className="text-[hsl(var(--neutral-dark))]">
-                        123 Tech Boulevard, Suite 456
-                        <br />
-                        San Francisco, CA 94105
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="text-primary text-xl mr-4">
-                      <Mail className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Email Us</h4>
-                      <p className="text-[hsl(var(--neutral-dark))]">
-                        info@cyberdigitalsolutions.com
-                        <br />
-                        support@cyberdigitalsolutions.com
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="text-primary text-xl mr-4">
-                      <Phone className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Call Us</h4>
-                      <p className="text-[hsl(var(--neutral-dark))]">
-                        (555) 123-4567
-                        <br />
-                        Mon-Fri, 9am-5pm PST
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="pt-6">
-                    <h4 className="font-medium mb-4">Follow Us</h4>
-                    <div className="flex space-x-4">
-                      <a
-                        href="#"
-                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
-                        aria-label="Facebook"
-                      >
-                        <FaFacebook />
-                      </a>
-                      <a
-                        href="#"
-                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
-                        aria-label="Twitter"
-                      >
-                        <FaTwitter />
-                      </a>
-                      <a
-                        href="#"
-                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
-                        aria-label="LinkedIn"
-                      >
-                        <FaLinkedin />
-                      </a>
-                      <a
-                        href="#"
-                        className="text-primary hover:text-accent text-xl transition-colors duration-300"
-                        aria-label="Instagram"
-                      >
-                        <FaInstagram />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
             </Card>
           </div>
         </div>

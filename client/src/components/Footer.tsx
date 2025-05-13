@@ -155,13 +155,13 @@ export default function Footer() {
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mt-1 mr-2" />
                 <span className="text-[hsl(var(--neutral-light))]">
-                  info@cyberdigitalsolutions.com
+                  cyberdigitalsolutions@mail.com
                 </span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mt-1 mr-2" />
                 <span className="text-[hsl(var(--neutral-light))]">
-                  (555) 123-4567
+                  519 774 3499
                 </span>
               </li>
             </ul>
