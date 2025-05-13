@@ -144,14 +144,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2">
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 mt-1 mr-2" />
-                <span className="text-[hsl(var(--neutral-light))]">
-                  123 Tech Boulevard, Suite 456
-                  <br />
-                  San Francisco, CA 94105
-                </span>
-              </li>
+
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mt-1 mr-2" />
                 <span className="text-[hsl(var(--neutral-light))]">
@@ -161,7 +154,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mt-1 mr-2" />
                 <span className="text-[hsl(var(--neutral-light))]">
-                  519 774 3499
+                  (519) 774-3499
                 </span>
               </li>
             </ul>

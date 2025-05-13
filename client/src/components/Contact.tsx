@@ -101,7 +101,7 @@ export default function Contact() {
                     <div>
                       <h4 className="font-medium">Call Us</h4>
                       <p className="text-[hsl(var(--neutral-dark))]">
-                        519 774 3499
+                        (519) 774-3499
                       </p>
                     </div>
                   </div>

@@ -37,8 +37,13 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="flex items-center space-x-2">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-2">
+              <path d="M20 5L5 12.5V27.5L20 35L35 27.5V12.5L20 5Z" fill="#6530CC" />
+              <path d="M20 15L12.5 19V27L20 31L27.5 27V19L20 15Z" fill="#15CDB3" />
+              <path d="M20 5V15M5 12.5L12.5 19M35 12.5L27.5 19M20 35V31M5 27.5L12.5 27M35 27.5L27.5 27" stroke="#4A1098" strokeWidth="1.5" />
+            </svg>
             <div className="text-primary font-bold text-2xl">
-              CyberDigital<span className="text-accent">Solutions</span>
+              Cyber<span className="text-accent">Digital</span>
             </div>
           </a>
 
