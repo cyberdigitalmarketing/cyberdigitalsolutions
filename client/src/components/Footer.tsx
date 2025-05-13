@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { MapPin, Mail, Phone } from "lucide-react";
-import logo from "../assets/logo-high-quality.svg";
+import logo from "../assets/exact-logo.svg";
 
 const currentYear = new Date().getFullYear();
 

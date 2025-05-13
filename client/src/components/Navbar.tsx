@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo-high-quality.svg";
+import logo from "../assets/exact-logo.svg";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,9 +15,9 @@ export default function Navbar() {
   // Function to adjust navbar background opacity based on scroll position
   const getNavbarStyle = () => {
     if (scrolled) {
-      return { backgroundColor: 'rgba(255, 255, 255, 0.98)', backdropFilter: 'blur(8px)' };
+      return { backgroundColor: 'rgba(255, 255, 255, 1)', backdropFilter: 'blur(10px)' };
     }
-    return { backgroundColor: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(5px)' };
+    return { backgroundColor: 'rgba(255, 255, 255, 0.98)', backdropFilter: 'blur(8px)' };
   };
 
   const closeMobileMenu = () => {
