@@ -53,7 +53,7 @@ export default function Footer() {
                   {/* Cyber Digital */}
                   <text 
                     fontFamily="Arial, sans-serif" 
-                    fontSize="20" 
+                    fontSize="22" 
                     fontWeight="700" 
                     letterSpacing="-0.5px"
                     fill="#ffffff"
@@ -64,7 +64,7 @@ export default function Footer() {
                   {/* Solutions */}
                   <text 
                     fontFamily="Arial, sans-serif" 
-                    fontSize="12" 
+                    fontSize="13" 
                     fontWeight="500"
                     fill="#cccccc"
                     y="16"

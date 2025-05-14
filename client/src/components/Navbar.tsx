@@ -84,18 +84,18 @@ export default function Navbar() {
                 {/* Cyber Digital */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="16" 
+                  fontSize="18" 
                   fontWeight="700" 
                   letterSpacing="-0.5px"
-                  fill="#1E7AF8"
+                  fill="#000000"
                 >
-                  Cyber <tspan fill="#0597F2">Digital</tspan>
+                  Cyber <tspan fill="#ff3371">Digital</tspan>
                 </text>
                 
                 {/* Solutions */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="10" 
+                  fontSize="11" 
                   fontWeight="500"
                   fill="#343a40"
                   y="16"
