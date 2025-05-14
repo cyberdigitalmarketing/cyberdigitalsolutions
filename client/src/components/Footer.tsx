@@ -64,10 +64,10 @@ export default function Footer() {
                   {/* Solutions */}
                   <text 
                     fontFamily="Arial, sans-serif" 
-                    fontSize="13" 
-                    fontWeight="500"
+                    fontSize="16" 
+                    fontWeight="600"
                     fill="#cccccc"
-                    y="16"
+                    y="18"
                   >
                     Solutions
                   </text>

@@ -40,7 +40,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <a href="#home" className="flex items-center">
+          <a href="#home" className="flex items-center ml-[-12px]">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               viewBox="0 0 240 64" 
@@ -95,10 +95,10 @@ export default function Navbar() {
                 {/* Solutions */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="11" 
-                  fontWeight="500"
+                  fontSize="14" 
+                  fontWeight="600"
                   fill="#343a40"
-                  y="16"
+                  y="17"
                 >
                   Solutions
                 </text>
