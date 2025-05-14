@@ -56,9 +56,9 @@ export default function Navbar() {
               <path d="M20 35L20 20L35 13L35 27L20 35Z" fill="#0D57C2" fillOpacity="0.6"/>
               <path d="M5 27L20 35L20 20L5 13L5 27Z" fill="#0D57C2" fillOpacity="0.8"/>
             </svg>
-            <div className="text-primary font-bold text-sm sm:text-base md:text-xl lg:text-2xl transition-all duration-300">
-              <span>Cyber Digital </span>
-              <span className="text-accent">Solutions</span>
+            <div className="text-primary font-bold text-sm sm:text-base md:text-xl lg:text-2xl transition-all duration-300" style={{ fontFamily: 'Rajdhani, sans-serif' }}>
+              <span style={{ letterSpacing: '0.05em' }}>CYBER DIGITAL </span>
+              <span className="text-accent" style={{ letterSpacing: '0.05em' }}>SOLUTIONS</span>
             </div>
           </a>
 

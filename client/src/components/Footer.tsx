@@ -26,8 +26,8 @@ export default function Footer() {
                 <path d="M20 35L20 20L35 13L35 27L20 35Z" fill="#0D57C2" fillOpacity="0.6"/>
                 <path d="M5 27L20 35L20 20L5 13L5 27Z" fill="#0D57C2" fillOpacity="0.8"/>
               </svg>
-              <h3 className="text-xl font-semibold">
-                Cyber Digital Solutions
+              <h3 className="text-xl font-semibold" style={{ fontFamily: 'Rajdhani, sans-serif', letterSpacing: '0.05em' }}>
+                CYBER DIGITAL SOLUTIONS
               </h3>
             </div>
             <p className="text-white opacity-80 mb-6 font-medium">
