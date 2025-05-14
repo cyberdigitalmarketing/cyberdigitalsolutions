@@ -19,17 +19,12 @@ export default function Footer() {
                 xmlns="http://www.w3.org/2000/svg" 
                 className="w-6 h-6 mr-2"
               >
-                <rect width="40" height="40" rx="4" fill="#1E7AF8"/>
-                <path 
-                  fillRule="evenodd" 
-                  clipRule="evenodd" 
-                  d="M10 10C10 8.89543 10.8954 8 12 8H28C29.1046 8 30 8.89543 30 10V30C30 31.1046 29.1046 32 28 32H12C10.8954 32 10 31.1046 10 30V10ZM12 10H28V30H12V10Z" 
-                  fill="white"
-                />
-                <path d="M17 15H15V25H17V15Z" fill="white"/>
-                <path d="M21 15H19V25H21V15Z" fill="white"/>
-                <path d="M25 15H23V25H25V15Z" fill="white"/>
-                <path d="M17 20H25V22H17V20Z" fill="#0597F2"/>
+                <path d="M20 5L35 13V27L20 35L5 27V13L20 5Z" fill="#1E7AF8"/>
+                <path d="M20 11L28 15.5V24.5L20 29L12 24.5V15.5L20 11Z" fill="#0D57C2"/>
+                <path d="M20 16L23 17.75V21.25L20 23L17 21.25V17.75L20 16Z" fill="#0597F2"/>
+                <path d="M35 13L20 20L5 13L20 5L35 13Z" fill="#0597F2" fillOpacity="0.6"/>
+                <path d="M20 35L20 20L35 13L35 27L20 35Z" fill="#0D57C2" fillOpacity="0.6"/>
+                <path d="M5 27L20 35L20 20L5 13L5 27Z" fill="#0D57C2" fillOpacity="0.8"/>
               </svg>
               <h3 className="text-xl font-semibold">
                 Cyber Digital Solutions
