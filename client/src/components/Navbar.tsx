@@ -44,7 +44,8 @@ export default function Navbar() {
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               viewBox="0 0 240 64" 
-              className={`h-10 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
+              className={`h-12 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
+              width="240"
             >
               {/* Logo Symbol */}
               <g transform="translate(0,0)">
@@ -78,12 +79,12 @@ export default function Navbar() {
                 />
               </g>
               
-              {/* Logo Text - Only show on larger screens */}
-              <g className="hidden sm:block" transform="translate(78, 28)">
+              {/* Logo Text */}
+              <g transform="translate(78, 28)">
                 {/* Cyber Digital */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="20" 
+                  fontSize="16" 
                   fontWeight="700" 
                   letterSpacing="-0.5px"
                   fill="#1E7AF8"
@@ -94,7 +95,7 @@ export default function Navbar() {
                 {/* Solutions */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="12" 
+                  fontSize="10" 
                   fontWeight="500"
                   fill="#343a40"
                   y="16"
