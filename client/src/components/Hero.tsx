@@ -8,19 +8,43 @@ export default function Hero() {
     >
       <div className="absolute top-4 right-4 md:top-8 md:right-8 lg:top-12 lg:right-12 z-10 hidden md:block">
         <svg 
-          width="100" 
-          height="100" 
-          viewBox="0 0 40 40" 
-          fill="none" 
           xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 240 64" 
+          width="150" 
+          height="150" 
           className="w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 animate-pulse-scale opacity-25"
         >
-          <path d="M20 5L35 13V27L20 35L5 27V13L20 5Z" fill="#ffffff"/>
-          <path d="M20 11L28 15.5V24.5L20 29L12 24.5V15.5L20 11Z" fill="#ffffff" fillOpacity="0.8"/>
-          <path d="M20 16L23 17.75V21.25L20 23L17 21.25V17.75L20 16Z" fill="#ffffff"/>
-          <path d="M35 13L20 20L5 13L20 5L35 13Z" fill="#ffffff" fillOpacity="0.9"/>
-          <path d="M20 35L20 20L35 13L35 27L20 35Z" fill="#ffffff" fillOpacity="0.7"/>
-          <path d="M5 27L20 35L20 20L5 13L5 27Z" fill="#ffffff" fillOpacity="0.6"/>
+          {/* Logo Symbol - White for background decoration */}
+          <g transform="translate(0,0) scale(3)">
+            {/* Abstract circuit board background */}
+            <rect width="64" height="64" rx="8" fill="#ffffff" fillOpacity="0.3" />
+            
+            {/* Digital circuit lines */}
+            <path d="M10 20 H30 V40 H50" stroke="#ffffff" strokeWidth="2" fill="none" strokeLinecap="round" />
+            <path d="M15 50 H40 V30 H54" stroke="#ffffff" strokeWidth="2" fill="none" strokeLinecap="round" />
+            <path d="M35 15 V35 H55" stroke="#ffffff" strokeWidth="2" fill="none" strokeLinecap="round" />
+            
+            {/* Connection points/nodes */}
+            <circle cx="30" cy="20" r="3" fill="#ffffff" />
+            <circle cx="30" cy="40" r="3" fill="#ffffff" />
+            <circle cx="50" cy="40" r="3" fill="#ffffff" />
+            <circle cx="15" cy="50" r="3" fill="#ffffff" />
+            <circle cx="40" cy="50" r="3" fill="#ffffff" />
+            <circle cx="40" cy="30" r="3" fill="#ffffff" />
+            <circle cx="54" cy="30" r="3" fill="#ffffff" />
+            <circle cx="35" cy="15" r="3" fill="#ffffff" />
+            <circle cx="35" cy="35" r="3" fill="#ffffff" />
+            <circle cx="55" cy="35" r="3" fill="#ffffff" />
+            
+            {/* 'C' letter shape overlay */}
+            <path 
+              d="M32 12c-11.05 0-20 8.95-20 20s8.95 20 20 20c8.84 0 16.34-5.73 19-13.7" 
+              stroke="#ffffff" 
+              strokeWidth="5" 
+              fill="none" 
+              strokeLinecap="round"
+            />
+          </g>
         </svg>
       </div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">

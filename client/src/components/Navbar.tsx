@@ -40,26 +40,69 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <a href="#home" className="flex items-center space-x-1">
+          <a href="#home" className="flex items-center">
             <svg 
-              width="40" 
-              height="40" 
-              viewBox="0 0 40 40" 
-              fill="none" 
               xmlns="http://www.w3.org/2000/svg" 
-              className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 mr-1 md:mr-2 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
+              viewBox="0 0 240 64" 
+              className={`h-10 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
             >
-              <path d="M20 5L35 13V27L20 35L5 27V13L20 5Z" fill="#1E7AF8"/>
-              <path d="M20 11L28 15.5V24.5L20 29L12 24.5V15.5L20 11Z" fill="#0D57C2"/>
-              <path d="M20 16L23 17.75V21.25L20 23L17 21.25V17.75L20 16Z" fill="#0597F2"/>
-              <path d="M35 13L20 20L5 13L20 5L35 13Z" fill="#0597F2" fillOpacity="0.6"/>
-              <path d="M20 35L20 20L35 13L35 27L20 35Z" fill="#0D57C2" fillOpacity="0.6"/>
-              <path d="M5 27L20 35L20 20L5 13L5 27Z" fill="#0D57C2" fillOpacity="0.8"/>
+              {/* Logo Symbol */}
+              <g transform="translate(0,0)">
+                {/* Abstract circuit board background */}
+                <rect width="64" height="64" rx="8" fill="#2a1570" />
+                
+                {/* Digital circuit lines */}
+                <path d="M10 20 H30 V40 H50" stroke="#ff3371" strokeWidth="2" fill="none" strokeLinecap="round" />
+                <path d="M15 50 H40 V30 H54" stroke="#ff3371" strokeWidth="2" fill="none" strokeLinecap="round" />
+                <path d="M35 15 V35 H55" stroke="#ff3371" strokeWidth="2" fill="none" strokeLinecap="round" />
+                
+                {/* Connection points/nodes */}
+                <circle cx="30" cy="20" r="3" fill="#ff3371" />
+                <circle cx="30" cy="40" r="3" fill="#ff3371" />
+                <circle cx="50" cy="40" r="3" fill="#ff3371" />
+                <circle cx="15" cy="50" r="3" fill="#ff3371" />
+                <circle cx="40" cy="50" r="3" fill="#ff3371" />
+                <circle cx="40" cy="30" r="3" fill="#ff3371" />
+                <circle cx="54" cy="30" r="3" fill="#ff3371" />
+                <circle cx="35" cy="15" r="3" fill="#ff3371" />
+                <circle cx="35" cy="35" r="3" fill="#ff3371" />
+                <circle cx="55" cy="35" r="3" fill="#ff3371" />
+                
+                {/* 'C' letter shape overlay */}
+                <path 
+                  d="M32 12c-11.05 0-20 8.95-20 20s8.95 20 20 20c8.84 0 16.34-5.73 19-13.7" 
+                  stroke="#ffffff" 
+                  strokeWidth="5" 
+                  fill="none" 
+                  strokeLinecap="round"
+                />
+              </g>
+              
+              {/* Logo Text - Only show on larger screens */}
+              <g className="hidden sm:block" transform="translate(78, 28)">
+                {/* Cyber Digital */}
+                <text 
+                  fontFamily="Arial, sans-serif" 
+                  fontSize="20" 
+                  fontWeight="700" 
+                  letterSpacing="-0.5px"
+                  fill="#1E7AF8"
+                >
+                  Cyber <tspan fill="#0597F2">Digital</tspan>
+                </text>
+                
+                {/* Solutions */}
+                <text 
+                  fontFamily="Arial, sans-serif" 
+                  fontSize="12" 
+                  fontWeight="500"
+                  fill="#343a40"
+                  y="16"
+                >
+                  Solutions
+                </text>
+              </g>
             </svg>
-            <div className="text-primary font-bold text-sm sm:text-base md:text-xl lg:text-2xl transition-all duration-300" style={{ fontFamily: 'Rajdhani, sans-serif' }}>
-              <span style={{ letterSpacing: '0.05em' }}>CYBER DIGITAL </span>
-              <span className="text-accent" style={{ letterSpacing: '0.05em' }}>SOLUTIONS</span>
-            </div>
           </a>
 
           {/* Mobile menu button */}
