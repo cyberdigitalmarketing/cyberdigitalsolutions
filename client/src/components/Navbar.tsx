@@ -44,8 +44,8 @@ export default function Navbar() {
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               viewBox="0 0 240 64" 
-              className={`h-12 sm:h-12 md:h-14 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
-              width="240"
+              className={`h-16 sm:h-16 md:h-18 transition-all duration-300 ${scrolled ? "" : "animate-pulse-scale"}`}
+              width="260"
             >
               {/* Logo Symbol */}
               <g transform="translate(0,0)">
@@ -84,7 +84,7 @@ export default function Navbar() {
                 {/* Cyber Digital */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="18" 
+                  fontSize="22" 
                   fontWeight="700" 
                   letterSpacing="-0.5px"
                   fill="#000000"
@@ -95,10 +95,10 @@ export default function Navbar() {
                 {/* Solutions */}
                 <text 
                   fontFamily="Arial, sans-serif" 
-                  fontSize="14" 
+                  fontSize="18" 
                   fontWeight="600"
                   fill="#343a40"
-                  y="17"
+                  y="19"
                 >
                   Solutions
                 </text>

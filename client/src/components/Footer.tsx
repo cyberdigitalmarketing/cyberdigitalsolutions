@@ -14,7 +14,8 @@ export default function Footer() {
               <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 240 64" 
-                className="h-12"
+                className="h-16 sm:h-16"
+                width="280"
               >
                 {/* Logo Symbol */}
                 <g transform="translate(0,0)">
@@ -53,7 +54,7 @@ export default function Footer() {
                   {/* Cyber Digital */}
                   <text 
                     fontFamily="Arial, sans-serif" 
-                    fontSize="22" 
+                    fontSize="24" 
                     fontWeight="700" 
                     letterSpacing="-0.5px"
                     fill="#ffffff"
@@ -64,10 +65,10 @@ export default function Footer() {
                   {/* Solutions */}
                   <text 
                     fontFamily="Arial, sans-serif" 
-                    fontSize="16" 
+                    fontSize="20" 
                     fontWeight="600"
                     fill="#000000"
-                    y="18"
+                    y="21"
                   >
                     Solutions
                   </text>
