@@ -66,7 +66,7 @@ export default function Footer() {
                     fontFamily="Arial, sans-serif" 
                     fontSize="16" 
                     fontWeight="600"
-                    fill="#cccccc"
+                    fill="#000000"
                     y="18"
                   >
                     Solutions
