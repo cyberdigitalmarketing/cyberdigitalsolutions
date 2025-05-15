@@ -25,7 +25,7 @@ export default function About() {
               About Cyber Digital Solutions
             </h2>
             <p className="text-[hsl(var(--neutral-dark))] mb-4 font-medium">
-              Founded in 2015, Cyber Digital Solutions has been partnering with
+              Founded in 2010, Cyber Digital Solutions has been partnering with
               businesses to create impactful digital experiences that drive real
               results. Our team of experts brings together creativity and
               technical expertise to deliver solutions that stand out.
