@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { MapPin, Mail, Phone } from "lucide-react";
+import { MapPin, Mail } from "lucide-react";
 
 const currentYear = new Date().getFullYear();
 
@@ -213,12 +213,7 @@ export default function Footer() {
                   cyberdigitalsolutions@mail.com
                 </span>
               </li>
-              <li className="flex items-start">
-                <Phone className="h-5 w-5 mt-1 mr-2" />
-                <span className="text-[hsl(var(--neutral-light))]">
-                  (519) 774-3499
-                </span>
-              </li>
+
             </ul>
           </div>
         </div>
