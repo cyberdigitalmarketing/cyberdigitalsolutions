@@ -97,7 +97,7 @@ export default function Navbar() {
                   fontFamily="Arial, sans-serif" 
                   fontSize="18" 
                   fontWeight="600"
-                  fill="#343a40"
+                  fill="#000000"
                   y="19"
                 >
                   Solutions

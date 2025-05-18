@@ -103,17 +103,7 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  <div className="flex items-start">
-                    <div className="text-primary text-xl mr-4">
-                      <Phone className="h-6 w-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-medium">Call Us</h4>
-                      <p className="text-[hsl(var(--neutral-dark))] font-medium">
-                        (519) 774-3499
-                      </p>
-                    </div>
-                  </div>
+
 
                   <div className="pt-6">
                     <h4 className="font-medium mb-4">Follow Us</h4>
