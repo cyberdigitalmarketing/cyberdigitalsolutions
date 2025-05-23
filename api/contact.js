@@ -39,7 +39,7 @@ export default async function handler(req, res) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Contact Form <noreply@cyberdigitalsolutions.com>', // You may need to use a verified domain
+      from: 'onboarding@resend.dev', // Using Resend's default domain
       to: ['cyberdigitalsolutions@mail.com'],
       subject: `New Contact Form Submission from ${name}`,
       html: `
